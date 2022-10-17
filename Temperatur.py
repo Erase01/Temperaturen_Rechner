@@ -34,7 +34,7 @@ def quit():
 while True:
     print("")
     menu()
-    grad = int(input("Wählen Sie die gewünschte Rechenmetode aus: "))
+    grad = int(input("\nWählen Sie die gewünschte Rechenmetode aus: "))
     
     if grad == 1:
         cel() 
