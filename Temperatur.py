@@ -28,7 +28,7 @@ def menu():
     print("3: Exit")
 
 def quit():
-    print("Over and Out")
+    print("Wird beendet...")
     exit()
 
 while True:
