@@ -1,6 +1,7 @@
 # Temperatur in Grad Celsius C
 # Temperatur in Grad Kelvin K
 # K = C + 273.15
+# F = 
 # C = (F - 32) / 1.8 
 
 
@@ -24,9 +25,14 @@ def kel():
         print(celsius, "Grad Celsius, sind", kelvin, "Grad Kelvin.") 
 
 def fah():
-    fahrenheit = float(input("Geben Sie den Grad Fahrenheit ein, den Sie in Celsius umrechnen möchten: "))
-    celsius = (fahrenheit - 32) / 1.8
-    print(fahrenheit, "Grad Fahrenheit, sind", celsius, "Grad Celsius.")
+    celsius = float(input("Geben Sie den Grad Celsius ein, den Sie in Grad Fahrenheit umrechnen möchten: "))
+    fahrenheit = celsius * 1.8 + 32
+    print(celsius, "Grad Celsius, sind", fahrenheit, "Grad Fahrenheit.")        # ToDo: Wahnung für überschreiten des Absoluten Nullpunktes
+
+#def fah():
+#    fahrenheit = float(input("Geben Sie den Grad Fahrenheit ein, den Sie in Celsius umrechnen möchten: "))
+#    celsius = (fahrenheit - 32) / 1.8
+#    print(fahrenheit, "Grad Fahrenheit, sind", celsius, "Grad Celsius.")
 
 def menu():
     print("1: In Grad Celsius")
