@@ -7,12 +7,20 @@
 def cel():
     kelvin = float(input("Geben Sie den Grad Kelvin ein, den Sie in Celsius umrechnen möchten: "))
     celsius = kelvin - 273.15
-    print(kelvin, "Grad Kelvin, sind", celsius, "Grad Celsius.")
+    if kelvin < 0:
+        print(kelvin, "Grad Kelvin, sind", celsius, "Grad Celsius.")
+        print("Achtung!:", celsius, "Grad Celsius /", kelvin, "Grad Kelvin sind physikalisch nicht zu erreichende Temperaturen!")
+    else:
+        print(kelvin, "Grad Kelvin, sind", celsius, "Grad Celsius.")
 
 def kel():
     celsius = float(input("Geben Sie den Grad Celsius ein, den Sie in Kelvin umrechnen möchten: ")) 
     kelvin = celsius + 273.15
-    print(celsius, "Grad Celsius, sind", kelvin, "Grad Kelvin.") 
+    if celsius < -273.15:
+        print(celsius, "Grad Celsius, sind", kelvin, "Grad Kelvin.")
+        print("Achtung!:", celsius, "Grad Celsius /", kelvin, "Grad Kelvin sind physikalisch nicht zu erreichende Temperaturen!")
+    else:
+        print(celsius, "Grad Celsius, sind", kelvin, "Grad Kelvin.") 
        
 def menu():
     print("1: In Grad Celsius")
