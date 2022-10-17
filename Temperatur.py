@@ -9,7 +9,7 @@ def cel():
     celsius = kelvin - 273.15
     if kelvin < 0:
         print(kelvin, "Grad Kelvin, sind", celsius, "Grad Celsius.")
-        print("Achtung!:", celsius, "Grad Celsius /", kelvin, "Grad Kelvin sind physikalisch nicht zu erreichende Temperaturen!")
+        print("Achtung!:", celsius, "Grad Celsius /", kelvin, "Grad Kelvin, sind physikalisch nicht zu erreichende Temperaturen!")
     else:
         print(kelvin, "Grad Kelvin, sind", celsius, "Grad Celsius.")
 
@@ -18,7 +18,7 @@ def kel():
     kelvin = celsius + 273.15
     if celsius < -273.15:
         print(celsius, "Grad Celsius, sind", kelvin, "Grad Kelvin.")
-        print("Achtung!:", celsius, "Grad Celsius /", kelvin, "Grad Kelvin sind physikalisch nicht zu erreichende Temperaturen!")
+        print("Achtung!:", celsius, "Grad Celsius /", kelvin, "Grad Kelvin, sind physikalisch nicht zu erreichende Temperaturen!")
     else:
         print(celsius, "Grad Celsius, sind", kelvin, "Grad Kelvin.") 
        
