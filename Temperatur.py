@@ -38,6 +38,7 @@ def fah():
 def menu():
     print("1: In Grad Celsius")
     print("2: In Grad Kelvin")
+    print("3: In Grad Fahrenheit")
     print("3: Exit")
 
 def quit():
