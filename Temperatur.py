@@ -45,9 +45,18 @@ def menu():
     print("3: In Grad Fahrenheit")
     print("4: Exit")
 
-#def submenu():
-#    print("1: Von Kelvin")
-#    print("2: Von Fahrenheit")
+def submenu(something):
+    if something == 1:             # celsius
+            print("1: Von Kelvin")
+            print("2: Von Fahrenheit")
+    elif something == 2:           # kelvin
+            print("1: Von Celsius")
+            print("2: Von Fahrenheit")
+    elif something == 3:           # fahrenheit
+            print("1: Von Celsius")
+            print("2: Von Kelvin")
+    else:
+        print(error)
 
 def quit():
     print("Wird beendet...")
@@ -57,6 +66,7 @@ while True:
     print("")
     menu()
     grad = int(input("\nWählen Sie die gewünschte Rechenmetode aus: "))
+    error = "Error: wählen Sie eine der zur Auswahl stehenden Möglichkeiten!"
     
     if grad == 1:
         #submenu-cel()
@@ -68,4 +78,5 @@ while True:
     elif grad == 4:
         quit()
     else:
-        print("Error: wählen Sie eine der zur Auswahl stehenden Möglichkeiten!")
+        print(error)
+        
