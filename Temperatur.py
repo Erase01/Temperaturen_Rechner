@@ -39,7 +39,7 @@ def menu():
     print("1: In Grad Celsius")
     print("2: In Grad Kelvin")
     print("3: In Grad Fahrenheit")
-    print("3: Exit")
+    print("4: Exit")
 
 def quit():
     print("Wird beendet...")
@@ -55,6 +55,8 @@ while True:
     elif grad == 2:
         kel()
     elif grad == 3:
+        fah()
+    elif grad == 4:
         quit()
     else:
         print("Error: wählen Sie eine der zur Auswahl stehenden Möglichkeiten!")
