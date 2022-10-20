@@ -47,8 +47,17 @@ def menu():
 
 def submenu(something):
     if something == 1:                  # celsius
-        print("1: Von Kelvin")
-        print("2: Von Fahrenheit")
+        def vc():
+            print("1: Von Kelvin")
+            print("2: Von Fahrenheit")
+            value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Celsius umrechnen möchten: "))
+            while True:
+                if value == 1:
+                    cel()
+                elif value == 2:
+                    cel()
+                else:
+                    print(error)
     elif something == 2:                # kelvin
         print("1: Von Celsius")
         print("2: Von Fahrenheit")
