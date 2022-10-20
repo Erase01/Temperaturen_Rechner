@@ -58,6 +58,7 @@ def submenu(something):
                     cel()
                 else:
                     print(error)
+        vc()
     elif something == 2:                # kelvin
         print("1: Von Celsius")
         print("2: Von Fahrenheit")
@@ -78,8 +79,8 @@ while True:
     error = "Error: wählen Sie eine der zur Auswahl stehenden Möglichkeiten!"
     
     if grad == 1:
-        #submenu-cel()
-        cel() 
+        #cel()
+        submenu(1) 
     elif grad == 2:
         kel()
     elif grad == 3:
