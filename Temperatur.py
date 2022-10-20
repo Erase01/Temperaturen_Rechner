@@ -32,7 +32,7 @@ def fah():
         print(celsius, "Grad Celsius, sind", fahrenheit, "Grad Fahrenheit.")
         print("Achtung!:", celsius, "Grad Celsius /", fahrenheit, "Grad Kelvin, sind physikalisch nicht zu erreichende Temperaturen!")
     else:
-        print(celsius, "Grad Celsius, sind", fahrenheit, "Grad Fahrenheit.")        # ToDo: Wahnung für überschreiten des absoluten Nullpunktes
+        print(celsius, "Grad Celsius, sind", fahrenheit, "Grad Fahrenheit.")
 
 #def fah():
 #    fahrenheit = float(input("Geben Sie den Grad Fahrenheit ein, den Sie in Celsius umrechnen möchten: "))
