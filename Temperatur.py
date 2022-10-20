@@ -30,7 +30,7 @@ def fah():
     fahrenheit = celsius * 1.8 + 32
     if celsius < -273.15:
         print(celsius, "Grad Celsius, sind", fahrenheit, "Grad Fahrenheit.")
-        print("Achtung!:", celsius, "Grad Celsius /", fahrenheit, "Grad Kelvin sind physikalisch nicht zu erreichende Temperaturen!")
+        print("Achtung!:", celsius, "Grad Celsius /", fahrenheit, "Grad Kelvin, sind physikalisch nicht zu erreichende Temperaturen!")
     else:
         print(celsius, "Grad Celsius, sind", fahrenheit, "Grad Fahrenheit.")        # ToDo: Wahnung für überschreiten des absoluten Nullpunktes
 
