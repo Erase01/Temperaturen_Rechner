@@ -47,14 +47,14 @@ def menu():
 
 def submenu(something):
     if something == 1:                  # celsius
-            print("1: Von Kelvin")
-            print("2: Von Fahrenheit")
+        print("1: Von Kelvin")
+        print("2: Von Fahrenheit")
     elif something == 2:                # kelvin
-            print("1: Von Celsius")
-            print("2: Von Fahrenheit")
+        print("1: Von Celsius")
+        print("2: Von Fahrenheit")
     elif something == 3:                # fahrenheit
-            print("1: Von Celsius")
-            print("2: Von Kelvin")
+        print("1: Von Celsius")
+        print("2: Von Kelvin")
     else:
         print(error)
 
