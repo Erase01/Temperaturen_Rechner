@@ -46,8 +46,10 @@ def menu():
     print("4: Exit")
 
 def submenu(something):
+    s = True
     if something == 1:                  # celsius
         def vc():
+            nonlocal s
             s = True
             while s == True:
                 print("1: Von Kelvin")
