@@ -94,7 +94,7 @@ def submenu(something):
                 if value == 1:
                     fah()
                 elif value == 2:
-                    fah()
+                    fah()       #ToDo von Kelvin
                 elif value == 3:
                     s = False
                 else:
