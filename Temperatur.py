@@ -71,6 +71,7 @@ def submenu(something):
             while s == True:
                 print("1: Von Celsius")
                 print("2: Von Fahrenheit")
+                print("3: Zurück zum Haubtmenu")
                 value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Kelvin umrechnen möchten: "))
 
                 if value == 1:
