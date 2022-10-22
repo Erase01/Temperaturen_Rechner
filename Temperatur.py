@@ -113,7 +113,6 @@ while True:
     error = "Error: wählen Sie eine der zur Auswahl stehenden Möglichkeiten!"
     
     if grad == 1:
-        #cel()
         submenu(1) 
     elif grad == 2:
         kel()
