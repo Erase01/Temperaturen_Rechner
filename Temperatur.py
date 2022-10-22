@@ -60,7 +60,7 @@ def submenu(something):
                 if value == 1:
                     cel()
                 elif value == 2:
-                    cel()
+                    cel()           #ToDo von fahrenheit
                 elif value == 3:
                     s = False
                 else:
@@ -77,7 +77,7 @@ def submenu(something):
                 if value == 1:
                     kel()
                 elif value == 2:
-                    kel()
+                    kel()       #ToDo von Fahrenheit
                 elif value == 3:
                     s = False
                 else:
