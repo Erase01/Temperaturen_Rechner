@@ -65,11 +65,14 @@ def submenu(something):
                 else:
                     print(error)
         vc()
-    #elif something == 2:                # kelvin
-    #    def vk():
-    #        while s == True:
-    #        print("1: Von Celsius")
-    #        print("2: Von Fahrenheit")
+    elif something == 2:                # kelvin
+        def vk():
+            while s == True:
+                print("1: Von Celsius")
+                print("2: Von Fahrenheit")
+                value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Kelvin umrechnen möchten: "))
+
+                
     elif something == 3:                # fahrenheit
         print("1: Von Celsius")
         print("2: Von Kelvin")
