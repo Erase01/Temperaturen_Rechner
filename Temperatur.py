@@ -115,9 +115,9 @@ while True:
     if grad == 1:
         submenu(1) 
     elif grad == 2:
-        kel()
+        submenu(2)
     elif grad == 3:
-        fah()
+        submenu(3)
     elif grad == 4:
         quit()
     else:
