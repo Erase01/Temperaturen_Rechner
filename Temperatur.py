@@ -84,8 +84,20 @@ def submenu(something):
                     print(error)
         vk()
     elif something == 3:                # fahrenheit
-        print("1: Von Celsius")
-        print("2: Von Kelvin")
+        def vf():
+            while s == True:
+                print("1: Von Celsius")
+                print("2: Von Kelvin")
+                value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Fahrenheit umrechnen möchten: "))
+
+                if value == 1:
+                    fah()
+                elif value == 2:
+                    fah()
+                elif value == 3:
+                    s = False
+                else:
+                    print(error)
     else:
         print(error)
 
