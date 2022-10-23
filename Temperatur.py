@@ -16,10 +16,14 @@ def cel():                                                                      
     else:
         print(kelvin, "Grad Kelvin, sind", celsius, "Grad Celsius.")
 
-#def fah():                                                                                                    # FiC
-#    fahrenheit = float(input("Geben Sie den Grad Fahrenheit ein, den Sie in Celsius umrechnen möchten: "))
-#    celsius = (fahrenheit - 32) / 1.8
-#    print(fahrenheit, "Grad Fahrenheit, sind", celsius, "Grad Celsius.")
+def fah():                                                                                                     # FiC
+    fahrenheit = float(input("Geben Sie den Grad Fahrenheit ein, den Sie in Celsius umrechnen möchten: "))
+    celsius = (fahrenheit - 32) / 1.8
+    if fahrenheit < -459.67:
+        print(fahrenheit, "Grad Fahrenheit, sind", celsius, "Grad Celsius.")
+        print("Achtung!:", fahrenheit, "Grad Fahrenheit /", celsius, "Grad Celsius, sind physikalisch nicht zu erreichende Temperaturen!")
+    else:
+        print(fahrenheit, "Grad Fahrenheit, sind", celsius, "Grad Celsius.")
 
 def kel():                                                                                                     # CiK
     celsius = float(input("Geben Sie den Grad Celsius ein, den Sie in Kelvin umrechnen möchten: ")) 
