@@ -41,7 +41,7 @@ def FiK():                                                                      
         print(fahrenheit, "Grad Fahrenheit, sind", kelvin, "Grad Kelvin.")
         print("Achtung!", fahrenheit, "Grad Fahrenheit /", kelvin, "Grad Kelvin, sind physikalisch nicht zu erreichende Temperaturen!")
     else:
-        print(fahrenheit, "Grad Fahrenheit,sind", kelvin, "Grad Kelvin.")
+        print(fahrenheit, "Grad Fahrenheit, sind", kelvin, "Grad Kelvin.")
 
 def fah():                                                                                                     # CiF
     celsius = float(input("Geben Sie den Grad Celsius ein, den Sie in Grad Fahrenheit umrechnen möchten: "))
