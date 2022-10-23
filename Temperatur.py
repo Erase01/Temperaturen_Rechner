@@ -7,7 +7,7 @@
 
 
 
-def cel():
+def cel():                                                                                                     # KiC
     kelvin = float(input("Geben Sie den Grad Kelvin ein, den Sie in Celsius umrechnen möchten: "))
     celsius = kelvin - 273.15
     if kelvin < 0:
@@ -16,7 +16,7 @@ def cel():
     else:
         print(kelvin, "Grad Kelvin, sind", celsius, "Grad Celsius.")
 
-def kel():
+def kel():                                                                                                     # CiK
     celsius = float(input("Geben Sie den Grad Celsius ein, den Sie in Kelvin umrechnen möchten: ")) 
     kelvin = celsius + 273.15
     if celsius < -273.15:
@@ -25,7 +25,7 @@ def kel():
     else:
         print(celsius, "Grad Celsius, sind", kelvin, "Grad Kelvin.") 
 
-def fah():
+def fah():                                                                                                     # CiF
     celsius = float(input("Geben Sie den Grad Celsius ein, den Sie in Grad Fahrenheit umrechnen möchten: "))
     fahrenheit = celsius * 1.8 + 32
     if celsius < -273.15:
@@ -34,7 +34,7 @@ def fah():
     else:
         print(celsius, "Grad Celsius, sind", fahrenheit, "Grad Fahrenheit.")
 
-#def fah():
+#def fah():                                                                                                    # FiC
 #    fahrenheit = float(input("Geben Sie den Grad Fahrenheit ein, den Sie in Celsius umrechnen möchten: "))
 #    celsius = (fahrenheit - 32) / 1.8
 #    print(fahrenheit, "Grad Fahrenheit, sind", celsius, "Grad Celsius.")
@@ -77,7 +77,7 @@ def submenu(something):
                 if value == 1:
                     kel()
                 elif value == 2:
-                    kel()       #ToDo von Fahrenheit
+                    kel()           #ToDo von Fahrenheit
                 elif value == 3:
                     s = False
                 else:
@@ -94,7 +94,7 @@ def submenu(something):
                 if value == 1:
                     fah()
                 elif value == 2:
-                    fah()       #ToDo von Kelvin
+                    fah()           #ToDo von Kelvin
                 elif value == 3:
                     s = False
                 else:
