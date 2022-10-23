@@ -16,7 +16,7 @@ def cel():                                                                      
     else:
         print(kelvin, "Grad Kelvin, sind", celsius, "Grad Celsius.")
 
-def fah():                                                                                                     # FiC
+def FiC():                                                                                                     # FiC
     fahrenheit = float(input("Geben Sie den Grad Fahrenheit ein, den Sie in Celsius umrechnen möchten: "))
     celsius = (fahrenheit - 32) / 1.8
     if fahrenheit < -459.67:
@@ -33,6 +33,8 @@ def kel():                                                                      
         print("Achtung!:", celsius, "Grad Celsius /", kelvin, "Grad Kelvin, sind physikalisch nicht zu erreichende Temperaturen!")
     else:
         print(celsius, "Grad Celsius, sind", kelvin, "Grad Kelvin.") 
+
+def 
 
 def fah():                                                                                                     # CiF
     celsius = float(input("Geben Sie den Grad Celsius ein, den Sie in Grad Fahrenheit umrechnen möchten: "))
