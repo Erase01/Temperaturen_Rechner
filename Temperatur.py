@@ -62,7 +62,7 @@ def KiF():                                                                      
         print(kelvin, "Grad Kelvin, sind", fahrenheit, "Grad Fahrenheit.")
 
 
-def menu():
+def mainmenu():
     print("1: In Grad Celsius")
     print("2: In Grad Kelvin")
     print("3: In Grad Fahrenheit")
@@ -132,7 +132,7 @@ def quit():
 
 while True:
     print("")
-    menu()
+    mainmenu()
     grad = int(input("\nWählen Sie die gewünschte Rechenmetode aus: "))
     error = "Error: wählen Sie eine der zur Auswahl stehenden Möglichkeiten!"
     
