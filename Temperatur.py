@@ -81,9 +81,9 @@ def submenu(unit):
                 value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Celsius umrechnen möchten: "))
            
                 if value == 1:
-                    cel()
+                    KiC()
                 elif value == 2:
-                    cel()           #ToDo von Fahrenheit
+                    FiC()           #ToDo von Fahrenheit
                 elif value == 3:
                     s = False
                 else:
