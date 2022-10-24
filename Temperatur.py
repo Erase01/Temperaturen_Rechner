@@ -77,7 +77,7 @@ def submenu(unit):
             while s == True:
                 print("1: Von Kelvin")
                 print("2: Von Fahrenheit")
-                print("3: Zurück zum Haubtmenu")
+                print("3: Zurück zum Hauptmenue")
                 value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Celsius umrechnen möchten: "))
            
                 if value == 1:
@@ -94,7 +94,7 @@ def submenu(unit):
             while s == True:
                 print("1: Von Celsius")
                 print("2: Von Fahrenheit")
-                print("3: Zurück zum Haubtmenu")
+                print("3: Zurück zum Hauptmenue")
                 value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Kelvin umrechnen möchten: "))
 
                 if value == 1:
@@ -111,7 +111,7 @@ def submenu(unit):
             while s == True:
                 print("1: Von Celsius")
                 print("2: Von Kelvin")
-                print("3: Zurück zum Haubtmenu")
+                print("3: Zurück zum Hauptmenue")
                 value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Fahrenheit umrechnen möchten: "))
 
                 if value == 1:
