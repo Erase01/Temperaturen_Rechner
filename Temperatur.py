@@ -74,7 +74,7 @@ def submenu(something):
                 if value == 1:
                     cel()
                 elif value == 2:
-                    cel()           #ToDo von fahrenheit
+                    cel()           #ToDo von Fahrenheit
                 elif value == 3:
                     s = False
                 else:
