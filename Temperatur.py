@@ -122,6 +122,7 @@ def submenu(unit):
                     s = False
                 else:
                     print(error)
+        vf()            
     else:
         print(error)
 
