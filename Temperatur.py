@@ -98,9 +98,9 @@ def submenu(unit):
                 value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Kelvin umrechnen möchten: "))
 
                 if value == 1:
-                    kel()
+                    CiK()
                 elif value == 2:
-                    kel()           #ToDo von Fahrenheit
+                    FiK()           #ToDo von Fahrenheit
                 elif value == 3:
                     s = False
                 else:
