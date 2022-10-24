@@ -52,7 +52,16 @@ def fah():                                                                      
     else:
         print(celsius, "Grad Celsius, sind", fahrenheit, "Grad Fahrenheit.")
 
+def KiF():
+    kelvin = float(input("Geben Sie den Grad Kelvin ein, den Sie in Grad Fahrenheit umrechnen möchten: "))
+    fahrenheit = kelvin * 1.8 - 459.67
+    if kelvin < 0:
+        print(kelvin, "Grad Kelvin, sind", fahrenheit, "Grad Fahrenheit.")
+        print("Achtung!:", kelvin, "Grad Celsius /", fahrenheit, "Grad Kelvin, sind physikalisch nicht zu erreichende Temperaturen!")
+    else:
+        print(kelvin, "Grad Kelvin, sind", fahrenheit, "Grad Fahrenheit.")
 
+        
 def menu():
     print("1: In Grad Celsius")
     print("2: In Grad Kelvin")
