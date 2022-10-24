@@ -83,7 +83,7 @@ def submenu(unit):
                 if value == 1:
                     KiC()
                 elif value == 2:
-                    FiC()           #ToDo von Fahrenheit
+                    FiC()           
                 elif value == 3:
                     s = False
                 else:
@@ -100,7 +100,7 @@ def submenu(unit):
                 if value == 1:
                     CiK()
                 elif value == 2:
-                    FiK()           #ToDo von Fahrenheit
+                    FiK()           
                 elif value == 3:
                     s = False
                 else:
@@ -117,7 +117,7 @@ def submenu(unit):
                 if value == 1:
                     CiF()
                 elif value == 2:
-                    KiF()           #ToDo von Kelvin
+                    KiF()           
                 elif value == 3:
                     s = False
                 else:
