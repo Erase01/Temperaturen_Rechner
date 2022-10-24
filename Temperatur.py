@@ -7,7 +7,7 @@
 
 
 
-def cel():                                                                                                     # KiC
+def cel():                                                                                                     # Kelvin in Celsius 
     kelvin = float(input("Geben Sie den Grad Kelvin ein, den Sie in Celsius umrechnen möchten: "))
     celsius = kelvin - 273.15
     if kelvin < 0:
@@ -16,7 +16,7 @@ def cel():                                                                      
     else:
         print(kelvin, "Grad Kelvin, sind", celsius, "Grad Celsius.")
 
-def FiC():                                                                                                     # FiC
+def FiC():                                                                                                     # Fahrenheit in Celsius
     fahrenheit = float(input("Geben Sie den Grad Fahrenheit ein, den Sie in Celsius umrechnen möchten: "))
     celsius = (fahrenheit - 32) / 1.8
     if fahrenheit < -459.67:
@@ -25,7 +25,7 @@ def FiC():                                                                      
     else:
         print(fahrenheit, "Grad Fahrenheit, sind", celsius, "Grad Celsius.")
 
-def kel():                                                                                                     # CiK
+def kel():                                                                                                     # Celsius in Kelvin
     celsius = float(input("Geben Sie den Grad Celsius ein, den Sie in Kelvin umrechnen möchten: ")) 
     kelvin = celsius + 273.15
     if celsius < -273.15:
@@ -34,7 +34,7 @@ def kel():                                                                      
     else:
         print(celsius, "Grad Celsius, sind", kelvin, "Grad Kelvin.") 
 
-def FiK():                                                                                                     # FiK
+def FiK():                                                                                                     # Fahrenheit in Kelvin
     fahrenheit = float(input("Geben Sie den Grad Fahrenheit ein, den Sie in Kelvin umrechnen möchten: "))
     kelvin = (fahrenheit + 459.67) / 1.8
     if fahrenheit < -459.67:
@@ -43,7 +43,7 @@ def FiK():                                                                      
     else:
         print(fahrenheit, "Grad Fahrenheit, sind", kelvin, "Grad Kelvin.")
 
-def fah():                                                                                                     # CiF
+def fah():                                                                                                     # Celsius in Fahrenheit
     celsius = float(input("Geben Sie den Grad Celsius ein, den Sie in Grad Fahrenheit umrechnen möchten: "))
     fahrenheit = celsius * 1.8 + 32
     if celsius < -273.15:
