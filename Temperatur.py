@@ -69,10 +69,9 @@ def mainmenu():
     print("4: Exit")
 
 def submenu(unit):
-    s = True
     if  unit == 1:                  # celsius
         def vc():
-            nonlocal s
+            #nonlocal s
             s = True
             while s == True:
                 print("\n1: Von Kelvin")
@@ -91,6 +90,7 @@ def submenu(unit):
         vc()
     elif unit == 2:                # kelvin
         def vk():
+            s = True
             while s == True:
                 print("\n1: Von Celsius")
                 print("2: Von Fahrenheit")
@@ -108,6 +108,7 @@ def submenu(unit):
         vk()
     elif unit == 3:                # fahrenheit
         def vf():
+            s = True
             while s == True:
                 print("\n1: Von Celsius")
                 print("2: Von Kelvin")
