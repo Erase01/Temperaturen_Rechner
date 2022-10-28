@@ -1,4 +1,5 @@
 # Temperaturenumrechner
 
 ## Installation Temperaturenumrechner
-#### git clone 
+#### git clone https://github.com/Erase01/Temperaturenumrechner.git
+#### ./setup.sh
