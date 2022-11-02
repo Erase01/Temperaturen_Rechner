@@ -68,7 +68,7 @@ def mainmenu():
     print("3: In Grad Fahrenheit")
     print("4: Exit")
 
-def submenu(unit):
+def submenu(unit):                  #ToDo: submenu als klasse
     if  unit == 1:                  # celsius
         def vc():
             #nonlocal s
@@ -77,7 +77,7 @@ def submenu(unit):
                 print("\n1: Von Kelvin")
                 print("2: Von Fahrenheit")
                 print("3: Zurück zum Hauptmenue")
-                value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Celsius umrechnen möchten: "))
+                value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Celsius umrechnen möchten: "))     #ToDo: Programm gegen crash sichern wenn input != int
            
                 if value == 1:
                     KiC()
