@@ -95,19 +95,22 @@ def submenu(unit):                  #ToDo: submenu als klasse
         def vk():
             s = True
             while s == True:
-                print("\n1: Von Celsius")
-                print("2: Von Fahrenheit")
-                print("3: Zurück zum Hauptmenue")
-                value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Kelvin umrechnen möchten: "))
+                try:
+                    print("\n1: Von Celsius")
+                    print("2: Von Fahrenheit")
+                    print("3: Zurück zum Hauptmenue")
+                    value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Kelvin umrechnen möchten: "))
 
-                if value == 1:
-                    CiK()
-                elif value == 2:
-                    FiK()           
-                elif value == 3:
-                    s = False
-                else:
-                    print(error)
+                    if value == 1:
+                        CiK()
+                    elif value == 2:
+                        FiK()           
+                    elif value == 3:
+                        s = False
+                    else:
+                        print(error)
+                except ValueError:
+                    print("\nWählen Sie bitte ein der zu Verfügung stehenden Optionen!")
         vk()
     elif unit == 3:                # fahrenheit
         def vf():
