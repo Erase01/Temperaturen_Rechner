@@ -78,7 +78,7 @@ def submenu(unit):                  #ToDo: submenu als klasse
                     print("\n1: Von Kelvin")
                     print("2: Von Fahrenheit")
                     print("3: Zurück zum Hauptmenue")
-                    value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Celsius umrechnen möchten: "))     #ToDo: Programm gegen crash sichern wenn input != int
+                    value = int(input("Wählen Sie die Temperatureinheiten aus, welche Sie in Celsius umrechnen möchten: "))
             
                     if value == 1:
                         KiC()
