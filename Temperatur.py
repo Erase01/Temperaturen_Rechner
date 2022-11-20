@@ -89,7 +89,7 @@ def submenu(unit):                  #ToDo: submenu als klasse
                     else:
                         print(error)
                 except ValueError:
-                    print("\nWählen Sie bitte ein der zu Verfügung stehenden Werte!")
+                    print("\nWählen Sie bitte ein der zu Verfügung stehenden Optionen!")
         vc()
     elif unit == 2:                # kelvin
         def vk():
