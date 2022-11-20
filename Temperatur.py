@@ -143,17 +143,20 @@ def quit():
 while True:
     print("")
     mainmenu()
-    grad = int(input("\nWählen Sie die gewünschte Rechenmetode aus: "))
-    error = "Error: wählen Sie eine der zur Auswahl stehenden Möglichkeiten!"
-    
-    if grad == 1:
-        submenu(1) 
-    elif grad == 2:
-        submenu(2)
-    elif grad == 3:
-        submenu(3)
-    elif grad == 4:
-        quit()
-    else:
-        print(error)
+    try:
+        grad = int(input("\nWählen Sie die gewünschte Rechenmetode aus: "))
+        error2 = grad 
+        error = "Error: wählen Sie eine der zur Auswahl stehenden Möglichkeiten!"
         
+        if grad == 1:
+            submenu(1) 
+        elif grad == 2:
+            submenu(2)
+        elif grad == 3:
+            submenu(3)
+        elif grad == 4:
+            quit()
+        else:
+            print(error)
+    except ValueError:
+        print("\nWählen Sie bitte ein der zu Verfügung stehenden Optionen!")
